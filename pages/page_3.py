@@ -13,7 +13,7 @@ st.title("📃 Khám Phá mối liên hệ giữa biến định tính và biế
 # # load dataset
 @st.cache_data
 def load_data():
-    data = pd.read_csv('C:\DATA\laptop_prices.csv')
+    data = pd.read_csv('laptop_prices.csv')
     data['LY price'] = data['Price ($)'] - 100
     months = ["January", "February", "March", "April", "May", "June",
             "July", "August", "September", "October", "November", "December"]
