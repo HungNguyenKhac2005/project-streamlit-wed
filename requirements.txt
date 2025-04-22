@@ -3,5 +3,4 @@ numpy
 matplotlib.pyplot
 seaborn
 streamlit
-io
-random
+
